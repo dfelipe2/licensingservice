@@ -10,15 +10,3 @@ spring:
           searchPaths: licensingservice, organizationservice
           username: dfelipe2
           password: Vozaju47
-
-
-#server:
- # port: 8888
-#spring:
- # profiles:
-  #  active: native
-  #cloud:
-   # config:
-    #  server:
-     #   native:
-      #    searchLocations: file:///Users/rolen/book/ch3-config-managment/confsvr/src/main/resources/config/licensingservice

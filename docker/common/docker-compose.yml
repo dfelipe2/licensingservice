@@ -6,6 +6,10 @@ services:
       - "8888:8888"
     environment:
       ENCRYPT_KEY:       "IMSYMMETRIC"
+  eurekaserver:
+    image:   dfelipe2/tmx-eurekasvr:chapter4
+    ports:
+      - "8761:8761"
   licensingservice:
     image: dfelipe2/tmx-licensing-service:chapter3
     ports:

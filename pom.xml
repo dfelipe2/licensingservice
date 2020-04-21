@@ -20,6 +20,7 @@
 	<modules>
 		<module>confsvr</module>
 		<module>licensing-service</module>
+		<module>eurekasvr</module>
 	</modules>
 
 	<build>
